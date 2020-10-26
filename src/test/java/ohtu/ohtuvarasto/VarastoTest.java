@@ -82,7 +82,7 @@ public class VarastoTest {
     @Test
     public void ottaminenToimiiOikein() {
     	assertEquals(varasto.otaVarastosta(-1231), 0, vertailuTarkkuus);
-    	assertEquals(varasto.otaVarastosta(10), 0, vertailuTarkkuus);
+    	assertEquals(varasto.otaVarastosta(10), 123, vertailuTarkkuus);
     }
     
     @Test
